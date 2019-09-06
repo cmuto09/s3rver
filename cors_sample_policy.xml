@@ -2,7 +2,7 @@
 <CORSConfiguration>
   <CORSRule>
     <AllowedOrigin>*</AllowedOrigin>
-    <AllowedMethod>GET</AllowedMethod>
+    <AllowedMethod>GET,PUT,POST,DELETE,PATCH</AllowedMethod>
     <MaxAgeSeconds>3000</MaxAgeSeconds>
     <AllowedHeader>Authorization</AllowedHeader>
   </CORSRule>
